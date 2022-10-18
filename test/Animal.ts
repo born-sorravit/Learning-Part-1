@@ -2,7 +2,7 @@ import { expect } from "chai";
 import { ethers } from "hardhat";
 import { Dolphin } from "../typechain";
 
-describe("Dog", function () {
+describe("Animal", function () {
 
   it("function eat : display energy = 10", async function () {
     const DogContract = await ethers.getContractFactory("Dog");

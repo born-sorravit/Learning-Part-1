@@ -36,7 +36,7 @@ contract Animal {
     }
 
     modifier maxEnergy() {
-        require(energy <= 20 , "Max energy");
+        require(energy < 20 , "Max energy");
         _;
     }
 }
